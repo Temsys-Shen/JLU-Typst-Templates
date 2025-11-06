@@ -1,0 +1,16 @@
+[package]
+name = "jlu-templates"
+version = "0.0.1"
+entrypoint = "lib.typ"
+authors = ["Museday"]
+license = "MIT"
+description = "吉林大学作业及论文模板。"
+repository = "https://github.com/nju-lug/modern-nju-thesis"
+keywords = ["Jilin University", "thesis", "paper","homework"]
+categories = ["thesis"]
+exclude = ["imgs"]
+
+[template]
+path = "template"
+entrypoint = "thesis.typ"
+thumbnail = "thumbnail.png"
